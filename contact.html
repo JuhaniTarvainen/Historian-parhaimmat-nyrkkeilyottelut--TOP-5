@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="top 5.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar-wrapper">
+            <div class="navbar-background">
+                <div class="navbar-center">
+                    <a href="home.html" class="home-button">Home</a>
+                </div>
+            </div>
+
+            <div class="navbar-bottom">
+                <ul>
+                    <li><a href="contact.html">CONTACT ME</a></li>
+                    <li><a href="top 5.html">TOP 5</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="blue-bar"></div>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact Me</h1>
+            
+            <div class="content-wrapper">
+                <form action="https://formspree.io/f/mldeerzw" method="POST">
+                    <div class="name-split">
+                        <div class="name-field">
+                            <label for="first-name">Etunimi</label>
+                            <input type="text" id="first-name" name="first-name" />
+                        </div>
+                        <div class="name-field">
+                            <label for="last-name">Sukunimi</label>
+                            <input type="text" id="last-name" name="last-name" />
+                        </div>
+                    </div>
+
+                    <label for="email">Sähköposti *</label>
+                    <input type="email" id="email" name="email" required />
+                
+                    <label for="feedback">Anna palautetta</label>
+                    <textarea id="feedback" name="feedback"></textarea>
+
+                    <button type="submit">Lähetä</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
